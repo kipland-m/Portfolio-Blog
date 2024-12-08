@@ -19,6 +19,21 @@ header {
     padding: 1rem 0;
 }
 
+img {
+    max-width: 100%; 
+    height: auto; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+    display: block; 
+    margin: 0 auto; 
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+
 header p {
     max-width: 700px;
     margin: 0 auto;
