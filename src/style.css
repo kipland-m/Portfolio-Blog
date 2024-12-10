@@ -11,12 +11,25 @@ html, body {
     flex-direction: column;
 }
 
+section {
+    max-width: 800px;
+}
 /* Header */
 header {
     text-align: center;
     background: #333;
     color: #fff;
     padding: 1rem 0;
+}
+
+section {
+    max-width: 800px;
+    align-items: center;
+}
+
+section {
+    max-width: 800px;
+    align-items: center;
 }
 
 img {
@@ -54,7 +67,8 @@ main {
     background: #fff;
     margin-bottom: 15px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 5px; 
+    max-width: 600px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +78,7 @@ main {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 400px; 
+    max-width: 600px; 
     margin: 0 auto; /* Centers the form */
 }
 
